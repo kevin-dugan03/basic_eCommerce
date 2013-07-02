@@ -1,0 +1,68 @@
+@CHARSET "US-ASCII";
+
+#welcome {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.featuredProducts {
+	width: 100%;
+	overflow: auto;
+}
+
+.categoryTitle {
+	font-weight: bold;
+}
+
+.product {
+	float: left;
+	width: 20%;
+	margin: 0 auto;
+	margin-left: 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: green;
+}
+
+#userInfoTable, #regButtons {
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+#regButtons {
+	text-align: center;
+}
+
+#regConfirmMsg {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#userInfoOptions {
+	position: fixed;
+	top: 550px;
+	margin-left: 270px;
+	background: red;
+}
+
+#regMsg {
+	text-align: center;
+	color: red;
+}

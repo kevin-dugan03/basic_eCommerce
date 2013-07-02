@@ -1,0 +1,187 @@
+@CHARSET "US-ASCII";
+
+#cartColumns {
+	margin: 0 auto;
+	height: 30px;
+	background: #faebd7;
+	border: solid black 1px;
+	margin-bottom: 10px;
+}
+
+#prodInfoHeader {
+	float: left;
+	width: 60%;
+}
+
+#prodQtyHeader {
+	float: left;
+	width: 5%;
+	text-align: center;
+	margin-left: 10%;
+}
+
+#prodTtlHeader {
+	float: right;
+	margin-left: 5%;
+	width: 20%;
+	text-align: center;
+}
+
+.prodViewCart {
+	height: 100px;
+	margin: 0 auto;
+}
+
+.prodImg {
+	float: left;
+	width: 15%
+	text-align: center;
+}
+
+.prodDesc {
+	float: left;
+	width: 45%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.prodQty {
+	float: left;
+	width: 5%;
+	text-align: center;
+	margin-left: 10%;
+}
+
+#productDescription {
+	height: 200px;
+	width: 80%;
+	margin: 0 auto;
+	border: solid black 2px;
+	margin-top: 15px;
+}
+
+.prodPrice {
+	float: left;
+	width: 15%;
+	text-align: center;
+	margin-left: 5%;
+}
+
+.trashcanImg {
+	float: left;
+	width: 5%;
+	text-align: center;
+}
+
+.subtotal {
+	float: right;
+	width: 15%;
+	margin-right: 5%;
+	color: red;
+	font-weight: bold;
+}
+
+.cartCheckout {
+	float: right;
+	padding: 3px;
+}
+
+#checkoutButton {
+	display: none;
+}
+
+.continueShopping {
+	float: right;
+	padding: 3px;
+	margin-right: 5%;
+}
+
+#cartOptions {
+	width: 90%;
+	height: 30px;
+	float: right;
+	margin-right: 10%;
+}
+
+#total {
+	position: relative;
+	margin-left: 78%;
+	color: red;
+	font-weight: bold;
+}
+
+
+#checkoutOptions {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#paymentInfo {
+	float: left;
+	width: 30%;
+	margin-left: 10%;
+}
+
+#shipping {
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+}
+
+#billing {
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+	
+}
+
+#checkoutButtons {
+	clear: both;
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 30%;
+	height: 30px;
+}
+
+#orderHistory {
+	position: absolute;
+	width: 100%;
+	height: auto !important;
+}
+
+.singleOrder {
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid gray 2px;
+	height: auto !important;
+}
+
+.adminData {
+	float: left;
+	display: table-row;
+	width: 25%;
+	height: 100%;
+	padding: 1em;
+	border-right: solid black 1px;
+
+}
+
+.orderPriceTotal {
+	float: left;
+	width: 40%;
+	height: 15px;
+	padding: 1em;
+	/*border: solid red 1px;*/
+
+}
+
+.productViewHistory {
+	float: right;
+	width: 65%;
+	padding: 1em;
+	height: 80px;
+
+}

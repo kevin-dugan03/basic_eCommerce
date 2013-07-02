@@ -1,0 +1,83 @@
+@CHARSET "US-ASCII";
+
+body {
+	width: 980px;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+#pageContent {
+	position: relative;
+}
+
+#header {
+	height: 100px;
+	border: solid black 2px;
+}
+
+#title {
+	color: #000066;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	font-size: 115%;
+}
+
+#login {
+	position: absolute;
+	top: 20px;
+	right: 5%;
+}
+
+.loginEntry {
+	width: 90px;
+}
+
+#loginHelp {
+	position: absolute;
+	top: 60px;
+	right: 5%;
+}
+
+#userOptions {
+	position: absolute;
+	display: inline;
+	top: 70px;
+	right: 5%;
+}
+
+.linkSpace {
+	padding: 10px;
+}
+
+#helpLink {
+	font-size: 85%;
+}
+
+#navigation {
+	border: solid black 2px;
+	height: 40px;
+}
+
+#inLine {
+	list-style-type: none;
+}
+
+.across {
+	position: relative;
+	left: 10px;
+	display: inline;
+	padding: 10px;
+}
+
+#cart {
+	position: absolute;
+	top: 120px;
+	right: 5%;
+}
+
+.options {
+	font-size: 85%;
+	width: 80px;
+	margin: 0 auto;
+}
